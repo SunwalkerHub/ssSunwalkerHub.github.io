@@ -20,7 +20,7 @@ tags:
 
 ### 简单的柔性数组
 
-```C++
+```c++
 typedef struct myStruct{
 	int length;
 	char array[0];	
@@ -46,7 +46,7 @@ int main(int argc,char *argvp[] )
 
 ### 动态分配大小
 
-```C++
+```c++
 typedef struct myStruct{
 	int length;
 	char array[0];	
